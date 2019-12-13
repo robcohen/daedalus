@@ -1,7 +1,0 @@
-{
-  "watch": [
-    "dist",
-    "features"
-  ],
-  "ext": "js json css html feature"
-}
