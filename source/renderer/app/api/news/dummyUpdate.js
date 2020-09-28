@@ -17,6 +17,8 @@ const WIN32_HASH =
 const LINUX_HASH =
   'e8d3879b6402062f2626e0fe16ea452992c68f70c639adbf083015d3b24c1f03';
 
+const startDate = new Date();
+
 export const getDummyNews = () => {
   const { updatedAt, items: updateItems } = news;
 
@@ -44,11 +46,14 @@ export const getDummyNews = () => {
           },
         };
       }
-      arr.push(item);
+      const seconds = (new Date().getTime() - startDate.getTime()) / 1000;
+      if (seconds > 10) {
+        arr.push(item);
+      }
       return arr;
     }, []),
     // Newsfeed items
-    getNewsItem(1, 'announcement', true),
+    // getNewsItem(1, 'announcement', true),
     // getNewsItem(2, 'announcement', true),
     // getNewsItem(3, 'announcement', true),
     // getNewsItem(4, 'announcement', true),
