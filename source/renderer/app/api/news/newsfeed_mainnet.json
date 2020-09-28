@@ -33,7 +33,7 @@
         "ja-JP": "Daedalus 2.2.0配信開始"
       },
       "content": {
-        "en-US": "This [update](https://daedaluswallet.io/en/download) significantly improves both blockchain synchronization speed and connection time, and fixes some network connection issues. Daedalus 2.2.0 also includes numerous enhancements and resolves some minor issues.",
+        "en-US": "This update significantly improves both blockchain synchronization speed and connection time, and fixes some network connection issues. Daedalus 2.2.0 also includes numerous enhancements and resolves some minor issues.\n\nPlease read the [release notes](https://iohk.zendesk.com/hc/en-us/articles/900002374526) for more information.",
         "ja-JP": "今回[の更新](https://daedaluswallet.io/ja/download)ではまた、ブロックチェーンの同期スピードおよび接続時間が大幅に向上したほか、一部のネットワーク接続に関する不具合も修正されています。Daedalus 2.2.0には他にも多くの機能改善および一部の軽微な不具合の修正が含まれます。"
       },
       "target": {
