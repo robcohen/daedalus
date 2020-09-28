@@ -294,7 +294,7 @@ export default class AppUpdateStore extends Store {
     await requestResumeDownloadChannel.request({
       id: APP_UPDATE_DOWNLOAD_ID,
       options: {
-        progressIsThrottled: false,
+        progressIsThrottled: true,
         persistLocalData: true,
       },
     });
@@ -307,7 +307,7 @@ export default class AppUpdateStore extends Store {
       id: APP_UPDATE_DOWNLOAD_ID,
       fileUrl,
       options: {
-        progressIsThrottled: false,
+        progressIsThrottled: true,
         persistLocalData: true,
       },
     });
